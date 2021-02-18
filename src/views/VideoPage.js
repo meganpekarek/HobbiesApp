@@ -10,8 +10,8 @@ function VideoPage(props) {
         <div>
             <NavBar header={props.match.params.videoTitle} backBtn={true} history={props.history} />
             <div className="videoPage__wrapper d-flex flex-column flex-md-row p-4">
-                <div className="videoPage__video col-md-6 p-4"></div>
-                <div className="videoPage__commentsWrapper pt-md-0 pt-3">
+                <div className="videoPage__video col-md-8 mr-md-4"></div>
+                <div className="videoPage__commentsWrapper pt-md-0 pt-3 col-md-4">
                     <h4>Comments</h4>
                     <div className="d-flex flex-column m-3">
                         <Comment />

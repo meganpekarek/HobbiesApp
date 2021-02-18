@@ -8,11 +8,11 @@ function Home(props) {
         <div>
             <NavBar history={props.history}/>
             <div className="home__hobbyCardsWrapper">
-                <HobbyCard history={props.history} hobbyName="yoga" />
-                <HobbyCard history={props.history} hobbyName="knitting" />
-                <HobbyCard history={props.history} hobbyName="basketball" />
-                <HobbyCard history={props.history} hobbyName="sewing" />
-                <HobbyCard history={props.history} hobbyName="cooking" />
+                <HobbyCard history={props.history} hobbyName="Yoga" />
+                <HobbyCard history={props.history} hobbyName="Knitting" />
+                <HobbyCard history={props.history} hobbyName="Basketball" />
+                <HobbyCard history={props.history} hobbyName="Sewing" />
+                <HobbyCard history={props.history} hobbyName="Cooking" />
             </div>
         </div>
     );

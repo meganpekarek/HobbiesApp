@@ -10,7 +10,7 @@ function HobbyCard(props) {
     }
 
     return (
-        <div className="d-flex flex-column p-2" onClick={() => goToHobbyDetails()}>
+        <div className="d-flex flex-column p-2 cursor-pointer" onClick={() => goToHobbyDetails()}>
             <div className="hobbyCard__hobbyImg"></div>
             <span className="text-center">{hobbyName}</span>
         </div>

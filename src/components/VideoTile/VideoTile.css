@@ -9,3 +9,7 @@
     background: gray;
     border-radius: .5rem 0 0 .5rem;
 }
+
+.videoTile__description {
+    font-size: .7rem;
+}

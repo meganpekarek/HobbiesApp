@@ -1,6 +1,12 @@
 html {
   --text-color: black;
   --background-color: white;
+  --side-page-padding: 2rem;
+  --video-height: 30rem;
+}
+
+.cursor-pointer {
+  cursor: pointer;
 }
 
 .home__hobbyCardsWrapper {
@@ -18,5 +24,12 @@ html {
 
 .videoPage__video {
   background: gray;
-  height: 15rem;
+  height: var(--video-height);
+  border-radius: .5rem;
+}
+
+@media only screen and (max-width: 768px) {
+  html {
+    --video-height: 15rem;
+  }
 }

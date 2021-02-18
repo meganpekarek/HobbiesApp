@@ -30,7 +30,7 @@ function HobbyDetails(props) {
                         </div>
                     </div>
                 </div>
-                <h4>Related</h4>
+                <h4 className="mt-5">Related</h4>
                 <div className="row">
                     <HobbyCard history={props.history} hobbyName="Volleyball" />
                     <HobbyCard history={props.history} hobbyName="Tennis" />
