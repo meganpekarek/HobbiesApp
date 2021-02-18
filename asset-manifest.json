@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/HobbiesApp/static/css/main.7c59678f.chunk.css",
-    "main.js": "/HobbiesApp/static/js/main.cae871c6.chunk.js",
-    "main.js.map": "/HobbiesApp/static/js/main.cae871c6.chunk.js.map",
-    "runtime-main.js": "/HobbiesApp/static/js/runtime-main.70a03c01.js",
-    "runtime-main.js.map": "/HobbiesApp/static/js/runtime-main.70a03c01.js.map",
+    "main.css": "/HobbiesApp/static/css/main.ad13f956.chunk.css",
+    "main.js": "/HobbiesApp/static/js/main.31f6ad19.chunk.js",
+    "main.js.map": "/HobbiesApp/static/js/main.31f6ad19.chunk.js.map",
+    "runtime-main.js": "/HobbiesApp/static/js/runtime-main.e2eb2aaa.js",
+    "runtime-main.js.map": "/HobbiesApp/static/js/runtime-main.e2eb2aaa.js.map",
     "static/css/2.150d169a.chunk.css": "/HobbiesApp/static/css/2.150d169a.chunk.css",
-    "static/js/2.370a60cb.chunk.js": "/HobbiesApp/static/js/2.370a60cb.chunk.js",
-    "static/js/2.370a60cb.chunk.js.map": "/HobbiesApp/static/js/2.370a60cb.chunk.js.map",
-    "static/js/3.7f16ec53.chunk.js": "/HobbiesApp/static/js/3.7f16ec53.chunk.js",
-    "static/js/3.7f16ec53.chunk.js.map": "/HobbiesApp/static/js/3.7f16ec53.chunk.js.map",
+    "static/js/2.e688a545.chunk.js": "/HobbiesApp/static/js/2.e688a545.chunk.js",
+    "static/js/2.e688a545.chunk.js.map": "/HobbiesApp/static/js/2.e688a545.chunk.js.map",
+    "static/js/3.a67c680b.chunk.js": "/HobbiesApp/static/js/3.a67c680b.chunk.js",
+    "static/js/3.a67c680b.chunk.js.map": "/HobbiesApp/static/js/3.a67c680b.chunk.js.map",
     "index.html": "/HobbiesApp/index.html",
     "static/css/2.150d169a.chunk.css.map": "/HobbiesApp/static/css/2.150d169a.chunk.css.map",
-    "static/css/main.7c59678f.chunk.css.map": "/HobbiesApp/static/css/main.7c59678f.chunk.css.map",
-    "static/js/2.370a60cb.chunk.js.LICENSE.txt": "/HobbiesApp/static/js/2.370a60cb.chunk.js.LICENSE.txt"
+    "static/css/main.ad13f956.chunk.css.map": "/HobbiesApp/static/css/main.ad13f956.chunk.css.map",
+    "static/js/2.e688a545.chunk.js.LICENSE.txt": "/HobbiesApp/static/js/2.e688a545.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.70a03c01.js",
+    "static/js/runtime-main.e2eb2aaa.js",
     "static/css/2.150d169a.chunk.css",
-    "static/js/2.370a60cb.chunk.js",
-    "static/css/main.7c59678f.chunk.css",
-    "static/js/main.cae871c6.chunk.js"
+    "static/js/2.e688a545.chunk.js",
+    "static/css/main.ad13f956.chunk.css",
+    "static/js/main.31f6ad19.chunk.js"
   ]
 }
