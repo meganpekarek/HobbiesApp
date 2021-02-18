@@ -6,7 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function Home(props) {
     return (
         <div>
-            <NavBar />
+            <NavBar history={props.history}/>
             <div className="home__hobbyCardsWrapper">
                 <HobbyCard history={props.history} hobbyName="yoga" />
                 <HobbyCard history={props.history} hobbyName="knitting" />

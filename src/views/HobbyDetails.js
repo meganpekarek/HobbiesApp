@@ -8,25 +8,25 @@ function HobbyDetails(props) {
 
     return (
         <div>
-            <NavBar header={props.match.params.hobby} />
+            <NavBar header={props.match.params.hobby} backBtn={true} history={props.history} />
             <div className="hobbyDetails__wrapper d-flex flex-column">
                 <div className="d-flex flex-column flex-md-row">
                     <div className="d-flex flex-column mr-md-5">
                         <h4>Getting Started</h4>
                         <div className="d-flex flex-column flex-md-row flex-wrap">
-                            <VideoTile videoTitle="testing" history={props.history} />
-                            <VideoTile videoTitle="testing" history={props.history} />
-                            <VideoTile videoTitle="testing" history={props.history} />
-                            <VideoTile videoTitle="testing" history={props.history} />
+                            <VideoTile videoTitle="How to do this" history={props.history} />
+                            <VideoTile videoTitle="How to do that" history={props.history} />
+                            <VideoTile videoTitle="How to thisthat" history={props.history} />
+                            <VideoTile videoTitle="How to thatthis" history={props.history} />
                         </div>
                     </div>
                     <div className="d-flex flex-column">
                         <h4>Improving</h4>
                         <div className="d-flex flex-column flex-md-row flex-wrap">
-                            <VideoTile videoTitle="testing" history={props.history} />
-                            <VideoTile videoTitle="testing" history={props.history} />
-                            <VideoTile videoTitle="testing" history={props.history} />
-                            <VideoTile videoTitle="testing" history={props.history} />
+                            <VideoTile videoTitle="Better this" history={props.history} />
+                            <VideoTile videoTitle="Better that" history={props.history} />
+                            <VideoTile videoTitle="Better thisthat" history={props.history} />
+                            <VideoTile videoTitle="Better thatthis" history={props.history} />
                         </div>
                     </div>
                 </div>
