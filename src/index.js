@@ -4,12 +4,16 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 import Home from './views/Home';
 import { Route, Switch, HashRouter } from 'react-router-dom';
+import HobbyDetails from './views/HobbyDetails';
+import VideoPage from './views/VideoPage';
 
 ReactDOM.render(
     <HashRouter>
         <Switch>
           <Route exact path="/" component={Home} />
           <Route path="/home" component={Home} />
+          <Route path="/hobby-details/:hobby" component={HobbyDetails} />
+          <Route path="/video-page/:videoTitle" component={VideoPage} />
         </Switch>
     </HashRouter>,
   document.getElementById('root')

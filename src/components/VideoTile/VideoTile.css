@@ -1,0 +1,11 @@
+.viedoTile__wrapper {
+    border-radius: .5rem;
+    box-shadow: 0 3px 5px rgba(0,0,0,0.1);
+    margin: 1rem 0;
+}
+
+.videoTile__imgWrapper {
+    width: 5rem;
+    background: gray;
+    border-radius: .5rem 0 0 .5rem;
+}

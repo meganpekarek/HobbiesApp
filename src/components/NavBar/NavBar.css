@@ -1,0 +1,13 @@
+.navBar__wrapper {
+    background: var(--background-color);
+    box-shadow: 0 3px 5px rgba(0,0,0,0.1);
+}
+
+.navBar__header {
+    text-align: center;
+    padding: .5rem;
+}
+
+.navBar__icon {
+    color: var(--text-color);
+}
